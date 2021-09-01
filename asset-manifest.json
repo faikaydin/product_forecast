@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/product_forecast/static/css/main.d8db15af.chunk.css",
-    "main.js": "/product_forecast/static/js/main.5a583351.chunk.js",
-    "main.js.map": "/product_forecast/static/js/main.5a583351.chunk.js.map",
+    "main.js": "/product_forecast/static/js/main.309cdfd5.chunk.js",
+    "main.js.map": "/product_forecast/static/js/main.309cdfd5.chunk.js.map",
     "runtime-main.js": "/product_forecast/static/js/runtime-main.92a2f02e.js",
     "runtime-main.js.map": "/product_forecast/static/js/runtime-main.92a2f02e.js.map",
     "static/js/2.ab91676d.chunk.js": "/product_forecast/static/js/2.ab91676d.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.92a2f02e.js",
     "static/js/2.ab91676d.chunk.js",
     "static/css/main.d8db15af.chunk.css",
-    "static/js/main.5a583351.chunk.js"
+    "static/js/main.309cdfd5.chunk.js"
   ]
 }
