@@ -1,0 +1,100 @@
+h1 {
+  font-size: 36px;
+}
+.insightsContainer {
+  padding-top: 200px;
+
+  .sectionContainer {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+    div img {
+      width: 100%;
+      height: auto;
+    }
+    .vizContainer {
+      width: 60%;
+      position: relative;
+      margin-bottom: 20px;
+      div img {
+        width: 100%;
+        height: auto;
+      }
+      div::after {
+        content: ' ';
+        height: 40px;
+        width: 100%;
+        background-color: white;
+        display: block;
+        position: absolute;
+        top: 573px;
+      }
+      div ul li li {
+        margin-left: 20px;
+      }
+    }
+    .images {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      div {
+        width: 100%;
+        padding-right: 20px;
+        img {
+          width: auto;
+          height: 40vh;
+        }
+      }
+    }
+
+    .descContainer {
+      width: 40%;
+      padding-left: 100px;
+      h3 {
+        margin-top: 0;
+      }
+      ul li {
+        margin: 10px 0;
+      }
+    }
+  }
+  .imageandpots {
+    display: flex;
+    flex-direction: column;
+  }
+}
+table.greyGridTable {
+  border: 2px solid #ffffff;
+  width: 60%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.greyGridTable td,
+table.greyGridTable th {
+  border: 1px solid #ffffff;
+  padding: 3px 4px;
+}
+table.greyGridTable tbody td {
+  font-size: 13px;
+}
+table.greyGridTable tr:nth-child(even) {
+  background: #f1f1f1;
+}
+table.greyGridTable thead {
+  background: #ffffff;
+  border-bottom: 2px solid #333333;
+}
+table.greyGridTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+  text-align: center;
+  border-left: 0px solid #333333;
+}
+table.greyGridTable thead th:first-child {
+  border-left: none;
+}
+
+table.greyGridTable tfoot td {
+  font-size: 14px;
+}
